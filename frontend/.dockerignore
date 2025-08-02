@@ -1,0 +1,20 @@
+# Ignore Dockerfile itself
+Dockerfile
+.dockerfile
+
+# Ignore node_modules (for Node.js/JavaScript projects)
+node_modules
+
+# Ignore build output (if you rebuild inside Docker)
+dist
+build
+
+# Ignore logs
+*.log
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore environment files
+.env
